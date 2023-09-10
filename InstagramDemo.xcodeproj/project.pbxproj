@@ -16,6 +16,7 @@
 		802289762AA4DEE80022CA7A /* InstagramDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802289752AA4DEE80022CA7A /* InstagramDemoTests.swift */; };
 		802289802AA4DEE80022CA7A /* InstagramDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022897F2AA4DEE80022CA7A /* InstagramDemoUITests.swift */; };
 		802289822AA4DEE80022CA7A /* InstagramDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802289812AA4DEE80022CA7A /* InstagramDemoUITestsLaunchTests.swift */; };
+		806E75E62AAD0653004C6387 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E75E52AAD0653004C6387 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8022897B2AA4DEE80022CA7A /* InstagramDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8022897F2AA4DEE80022CA7A /* InstagramDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramDemoUITests.swift; sourceTree = "<group>"; };
 		802289812AA4DEE80022CA7A /* InstagramDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		806E75E52AAD0653004C6387 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8022895D2AA4DEE70022CA7A /* InstagramDemo */ = {
 			isa = PBXGroup;
 			children = (
+				806E75E42AAD0641004C6387 /* Utils */,
 				8022895E2AA4DEE70022CA7A /* AppDelegate.swift */,
 				802289602AA4DEE70022CA7A /* SceneDelegate.swift */,
 				802289622AA4DEE70022CA7A /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				802289812AA4DEE80022CA7A /* InstagramDemoUITestsLaunchTests.swift */,
 			);
 			path = InstagramDemoUITests;
+			sourceTree = "<group>";
+		};
+		806E75E42AAD0641004C6387 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				806E75E52AAD0653004C6387 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				802289632AA4DEE70022CA7A /* ViewController.swift in Sources */,
 				8022895F2AA4DEE70022CA7A /* AppDelegate.swift in Sources */,
 				802289612AA4DEE70022CA7A /* SceneDelegate.swift in Sources */,
+				806E75E62AAD0653004C6387 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
