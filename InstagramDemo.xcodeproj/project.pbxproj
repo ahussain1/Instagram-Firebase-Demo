@@ -22,6 +22,8 @@
 		806E75ED2AAE2BC2004C6387 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 806E75EC2AAE2BC2004C6387 /* FirebaseDatabase */; };
 		806E75EF2AAE2BC2004C6387 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 806E75EE2AAE2BC2004C6387 /* FirebaseFirestore */; };
 		806E75F12AAE2BC2004C6387 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 806E75F02AAE2BC2004C6387 /* FirebaseStorage */; };
+		806E75F32AC05E9F004C6387 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E75F22AC05E9F004C6387 /* MainTabBarController.swift */; };
+		80D97CFE2AC8D793003EC54A /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D97CFD2AC8D793003EC54A /* UserProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		802289812AA4DEE80022CA7A /* InstagramDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		806E75E52AAD0653004C6387 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		806E75E72AAE2AC3004C6387 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		806E75F22AC05E9F004C6387 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		80D97CFD2AC8D793003EC54A /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				802289692AA4DEE80022CA7A /* LaunchScreen.storyboard */,
 				8022896C2AA4DEE80022CA7A /* Info.plist */,
 				806E75E72AAE2AC3004C6387 /* GoogleService-Info.plist */,
+				806E75F22AC05E9F004C6387 /* MainTabBarController.swift */,
+				80D97CFD2AC8D793003EC54A /* UserProfileController.swift */,
 			);
 			path = InstagramDemo;
 			sourceTree = "<group>";
@@ -292,6 +298,8 @@
 			files = (
 				802289632AA4DEE70022CA7A /* ViewController.swift in Sources */,
 				8022895F2AA4DEE70022CA7A /* AppDelegate.swift in Sources */,
+				80D97CFE2AC8D793003EC54A /* UserProfileController.swift in Sources */,
+				806E75F32AC05E9F004C6387 /* MainTabBarController.swift in Sources */,
 				802289612AA4DEE70022CA7A /* SceneDelegate.swift in Sources */,
 				806E75E62AAD0653004C6387 /* Extensions.swift in Sources */,
 			);
